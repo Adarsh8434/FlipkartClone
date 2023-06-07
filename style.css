@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 88px;
+    padding: 0 25px;
+}
+.search button{
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+    /* z-index: 3; */
+}
+.Slider img{
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.container{
+    min-height:calc(100vh - 59px - 12vh);
+}
+.card{
+    background: white;
+}
+footer{
+    background: #2874f0;
+    height: 12vh;
+    color:#fcfcfc;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+}
+header{
+    height: 78px;
+    background:  #2874f0;
+    /* color: rgb(23, 199, 81); */
+    
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 59px;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight:700;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 26px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    font-family:bold;
+}
+nav ul li a:hover{
+    color: rgb(238, 237, 252);
+    font-family: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    /* z-index: 3; */
+}
+.search input{
+    width: 28vw;
+    height:6vh;
+    border-radius: 6px;
+    margin: 0 12px 0 12px;
+    padding: 0 12px;
+}
+.card h2{
+    font-family: 'Dongle', sans-serif;
+    font-weight: bold;
+}
+.my-1{
+    margin: 26px 0;
+}
+.text-center{
+    text-align: center;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.my-2{
+    margin:5px 0;
+}
+.cards{
+    display: flex;
+    /* justify-content: center; */
+    overflow: hidden;
+    margin: 37px auto;
+}
